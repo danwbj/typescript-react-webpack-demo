@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --devtool eval --progress --hot --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wdd",
@@ -13,7 +14,9 @@
     "@types/react-dom": "^0.14.20",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "ts-loader": "^1.3.3"
+    "source-map-loader": "^0.1.6",
+    "ts-loader": "^1.3.3",
+    "webpack": "^1.14.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.18",
